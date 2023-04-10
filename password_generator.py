@@ -60,7 +60,7 @@ elif choice == 'n':
     password = ''
     size = int(input('Enter length of the password you want : '))
     for i in range(0, size ):
-        rand = random.randint(0,len(all)+1)
+        rand = random.randint(0,len(all))
         password += all[rand]
     print(password)
 
